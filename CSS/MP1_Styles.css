@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    /*margin-left: 170px;*/
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("../Images/shapelined-_JBKdviweXI-unsplash.jpg");
+    background-repeat: repeat;
+    /*margin: auto;*/
+}
+
+/*a {
+    text-decoration: none;
+}*/
+
+/** {
+    box-sizing: border-box;
+}*/
+html, body, div, img {
+    /*margin: 0;*/
+    /*padding: 0;
+    border: 0;*/
+    /*font-size: 100%;
+    font: inherit;*/
+    /*vertical-align: baseline;*/
+}
+body {
+    /*line-height: 1;*/
+}
+
+.container {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+figure > img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: auto;
+}
+
+/*.container {
+    display: flex;
+    flex-wrap: wrap;
+}*/
+
+a {
+    /*background-color: black;*/
+    color: navy;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h2 {
+    color: ivory;
+    background-color: black;
+}
+
+p {
+    color: #151E3D;
+    text-align: center;
+}
+
+h3 {
+    color: #151E3D;
+    text-align: center;
+}
+
+h1 {
+    color: ivory;
+    background-color: black;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.img-caption {
+    text-align: center;
+    color: #151E3D;
+}
+
+.img-caption-web-dev {
+  padding-top: 5px;
+  text-align: center;
+  color: #151E3D;
+  font-weight: 550;
+}
+
+/*.port-cap {
+    font-weight: unset;
+}*/
+
+.carousel {
+    width: 600px;
+    margin: auto;
+}
+
+.hobby-highlight {
+    text-align: center;
+}
+
+div > iframe {
+    margin: auto;
+    padding-bottom: 15px;
+    display: block;
+}
+
+h4.hobby-highlight {
+    color:#151E3D;
+    padding-top: 15px;
+}
+
+#logo {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+nav {
+    color: navy;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: navy;
+}
+
+#bio-img {
+  width: 100%;
+  max-width: 225px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+small {
+    color:#151E3D;
+}
+
+.job-description {
+  padding-top: 0;
+  margin-top: 0;
+
+}
+
+.name {
+  padding-top: 5px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.progress-bar-2-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.center-table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+h4 {
+    text-align: center;
+    color:#151E3D;
+}
+
+.skills-container {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.hobby-highlight {
+  padding-top: 15px;
+}
+
+div.button {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.check-it-here-btn {
+    font-weight: bold;
+}
+
+div.back-to-top {
+  text-align: center;
+}
+
+.slide {
+  width: 600px;
+  margin: auto;
+  padding-bottom: 15px;
+}
+
+a.button {
+  color: ivory;
+}
+
+.btn-dark-container {
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.btn-dark {
+  font-weight: 550;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+.btn-dark-container-bio {
+  margin-bottom: 10px;
+}
+
+.btn-dark-container-other-skills-list {
+  margin-bottom: 10px;
+}
+.card-body-bio {
+  background: none;
+  padding-top: 10px;
+}
+
+.card-body-other-skills {
+  background: none;
+  padding-top: 10px;
+}
+
+.other-skills-list {
+  display: inline-block;
+  text-align: left;
+}
+
+.other-skills-list-container {
+  text-align: center;
+  color: #151E3D;
+  font-weight: 550;
+}
+
+.about-me-table {
+  width: 35%;
+}

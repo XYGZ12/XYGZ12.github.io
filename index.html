@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KodeGo MP1 - Personal Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/MP1_Styles.css">
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+	<script src="index.js"></script>
+    <header>
+        <h1>XYGZ Web Solutions 
+          <!--<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-pc-display-horizontal" viewBox="0 0 16 16">
+            <path d="M1.5 0A1.5 1.5 0 0 0 0 1.5v7A1.5 1.5 0 0 0 1.5 10H6v1H1a1 1 0 0 0-1 1v3a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1h-5v-1h4.5A1.5 1.5 0 0 0 16 8.5v-7A1.5 1.5 0 0 0 14.5 0h-13Zm0 1h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .5-.5ZM12 12.5a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0Zm2 0a.5.5 0 1 1 1 0 .5.5 0 0 1-1 0ZM1.5 12h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1ZM1 14.25a.25.25 0 0 1 .25-.25h5.5a.25.25 0 1 1 0 .5h-5.5a.25.25 0 0 1-.25-.25Z"/>
+          </svg>-->
+        </h1>
+    </header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img id=logo src="../Images/andrej-lisakov-V2OyJtFqEtY-unsplash.jpg" alt="web page logo"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#bio">Bio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#services-offered">Services Offered</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#skills">Skills</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#hobbies" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Hobbies
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#hobbies">Hobbies Section</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#hobby-highlight-of-the-month">Hobby Highlight of the Month</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#interests">Interests</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+    </nav>
+    <main>
+        <section id="bio">
+            <header><h2>Bio
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-card-text" viewBox="0 0 16 16">
+                <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+                <path d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z"/>
+              </svg>
+            </h2></header>
+            <img id="bio-img" src="../Images/camad.jpg" class="center" alt="bio image">
+            <h3 class="name">Hi, I'm Camad Dima-ampao</h3>
+            <p class="job-description"><small class="job-description"><strong>Web Developer in Progress</strong></small></p>
+            <p>Welcome to XYGZ Web Solutions Feel free to browse through this page</p> 
+            <p>If you have an idea in mind and/or have inquires and such, please don't hesitate to message me Just click this link right <a href="https://www.facebook.com/camad.dimaampao">here</a></p>
+            <p class="btn-dark-container-bio">
+              <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#bio-collapsible" aria-expanded="false" aria-controls="bio-collapsible">
+                Bio 
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                </svg>
+              </button>
+            </p>
+            <div class="collapse" id="bio-collapsible">
+              <div class="card card-body card-body-bio">
+                <h4>About Me</h4>
+                <table class="table table-dark table-striped center-table about-me-table">
+                  <!--<thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">First</th>
+                    </tr>
+                  </thead>-->
+                  <tbody>
+                    <tr>
+                      <th scope="row">Name</th>
+                      <td>Camad Bansao Dima-ampao</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Age</th>
+                      <td>28</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Religion</th>
+                      <td>Islam</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Degree</th>
+                      <td>Bachelor of Science in Business Administration - Major in Marketing Management</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <h4>Educational Background</h4>
+                <table class="table table-dark table-striped center-table">
+                <thead>
+                  <tr>
+                    <th scope="col">Level</th>
+                    <th scope="col">School</th>
+                    <th scope="col">Year Graduated</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Elementary</th>
+                    <td>City Central School</td>
+                    <td>2008</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Highschool</th>
+                    <td>Xavier University Highschool</td>
+                    <td>2012</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">College</th>
+                    <td>Xavier University</td>
+                    <td>2017</td>
+                  </tr>
+                </tbody>
+              </table>
+             </div>
+            </div>
+        </section>
+
+        <section id="services-offered">
+            <header><h2>Services Offered
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-tools" viewBox="0 0 16 16">
+                <path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0Zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708ZM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11Z"/>
+              </svg>
+            </h2></header>
+            <!--<div class="container">-->
+                <figure>
+                <img src="../Images/christopher-gower-m_HRfLhgABo-unsplash.jpg" alt="web development" class="center">
+                <div class="img-caption-web-dev">Web Development (Soon)</div>
+                </figure>
+            <!--</div>-->
+        </section>
+
+        <section id="skills">
+            <header><h2>Skills
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-laptop" viewBox="0 0 16 16">
+                <path d="M13.5 3a.5.5 0 0 1 .5.5V11H2V3.5a.5.5 0 0 1 .5-.5h11zm-11-1A1.5 1.5 0 0 0 1 3.5V12h14V3.5A1.5 1.5 0 0 0 13.5 2h-11zM0 12.5h16a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 12.5z"/>
+              </svg>
+            </h2></header>
+            <h4>Web Development Skills</h4>
+            <div class="skills-container">
+              <h5>HTML</h5>
+              <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 25%">5%</div>
+              </div>
+             <div class="progress-bar-2-container">
+              <h5>CSS</h5>
+               <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 25%">5%</div>
+               </div>
+              </div>
+            </div>
+
+            <p class="btn-dark-container-other-skills-list">
+              <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#other-skills" aria-expanded="false" aria-controls="other-skills">
+                Other Skills
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                </svg>
+              </button>
+            </p>
+            <div class="collapse" id="other-skills">
+              <div class="card card-body card-body-other-skills">
+                <div class="other-skills-list-container">
+                <ul class="other-skills-list">
+                  <li>Attention to detail</li>
+                  <li>Adaptable</li>
+                  <li>Self-motivated</li>
+                  <li>Willingness to learn</li>
+                  <li>Curious</li>
+                  <li>Lifelong learning attitude</li>
+                  <li>Marketing knowledge</li>
+                </ul>
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <section id="hobbies">
+            <header><h2>Hobbies
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-controller" viewBox="0 0 16 16">
+                <path d="M11.5 6.027a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-1.5 1.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm-6.5-3h1v1h1v1h-1v1h-1v-1h-1v-1h1v-1z"/>
+                <path d="M3.051 3.26a.5.5 0 0 1 .354-.613l1.932-.518a.5.5 0 0 1 .62.39c.655-.079 1.35-.117 2.043-.117.72 0 1.443.041 2.12.126a.5.5 0 0 1 .622-.399l1.932.518a.5.5 0 0 1 .306.729c.14.09.266.19.373.297.408.408.78 1.05 1.095 1.772.32.733.599 1.591.805 2.466.206.875.34 1.78.364 2.606.024.816-.059 1.602-.328 2.21a1.42 1.42 0 0 1-1.445.83c-.636-.067-1.115-.394-1.513-.773-.245-.232-.496-.526-.739-.808-.126-.148-.25-.292-.368-.423-.728-.804-1.597-1.527-3.224-1.527-1.627 0-2.496.723-3.224 1.527-.119.131-.242.275-.368.423-.243.282-.494.575-.739.808-.398.38-.877.706-1.513.773a1.42 1.42 0 0 1-1.445-.83c-.27-.608-.352-1.395-.329-2.21.024-.826.16-1.73.365-2.606.206-.875.486-1.733.805-2.466.315-.722.687-1.364 1.094-1.772a2.34 2.34 0 0 1 .433-.335.504.504 0 0 1-.028-.079zm2.036.412c-.877.185-1.469.443-1.733.708-.276.276-.587.783-.885 1.465a13.748 13.748 0 0 0-.748 2.295 12.351 12.351 0 0 0-.339 2.406c-.022.755.062 1.368.243 1.776a.42.42 0 0 0 .426.24c.327-.034.61-.199.929-.502.212-.202.4-.423.615-.674.133-.156.276-.323.44-.504C4.861 9.969 5.978 9.027 8 9.027s3.139.942 3.965 1.855c.164.181.307.348.44.504.214.251.403.472.615.674.318.303.601.468.929.503a.42.42 0 0 0 .426-.241c.18-.408.265-1.02.243-1.776a12.354 12.354 0 0 0-.339-2.406 13.753 13.753 0 0 0-.748-2.295c-.298-.682-.61-1.19-.885-1.465-.264-.265-.856-.523-1.733-.708-.85-.179-1.877-.27-2.913-.27-1.036 0-2.063.091-2.913.27z"/>
+              </svg>
+            </h2></header>
+            <div class="container">
+                <figure>
+                <img src="../Images/dex-ezekiel-IxDPZ-AHfoI-unsplash.jpg" alt="anime gallery">
+                <!--<div class="img-caption">Watching Anime</div>-->
+                <p class="btn-dark-container">
+                  <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#watching-anime" aria-expanded="false" aria-controls="watching-anime">
+                    Watching Anime 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                    </svg>
+                  </button>
+                </p>
+                <div class="collapse" id="watching-anime">
+                  <div class="card card-body">
+                    I like to watch stuff in my free time in general. And one of the things that I usually watch is anime. Some of my favorites are Eyeshield 21 and Yu-Gi-Oh! GX. And of course, the Gundam franchise, which is featured in the Hobby Highlight of this section for this month.
+                  </div>
+                </div>
+                </figure>
+
+                <figure>
+                <img src="../Images/denise-jans-uIemlFWQSC4-unsplash.jpg" alt="video games">
+                <!--<div class="img-caption">Playing Video Games</div>-->
+                <p class="btn-dark-container">
+                  <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#playing-video-games" aria-expanded="false" aria-controls="playing-video-games">
+                    Playing Video Games
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                    </svg>
+                  </button>
+                </p>
+                <div class="collapse" id="playing-video-games">
+                  <div class="card card-body">
+                    I also like to play video games in my free time. The genre of the games that I play vary. But I usually play racing games. Especially these days. I also like RPG games. Some of my favorites are Pokemon Fire Red and Final Fantasy VII: Crisis Core. I'm a big fan of the Pokemon and Final Fantasy franchises in general.
+                  </div>
+                </div>
+                </figure>
+                <figure>
+                <img src="../Images/shiromani-kant-mo3FOTG62ao-unsplash.jpg" alt="books">
+                <!--<div class="img-caption">Reading Books</div>-->
+                <p class="btn-dark-container">
+                  <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#reading-books" aria-expanded="false" aria-controls="reading-books">
+                    Reading Books
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                    </svg>
+                  </button>
+                </p>
+                <div class="collapse" id="reading-books">
+                  <div class="card card-body">
+                    I also like to read books in my free time. The subjects of the books that I read vary a lot. I read both fiction and non-fiction. For fiction, I usually read sci-fi books. For non-fiction, I usually read about topics and subjects that I'm curious about and currently interested in.
+                  </div>
+                </div>
+                </figure>
+
+                <figure>
+                <img src="../Images/myke-simon-atsUqIm3wxo-unsplash.jpg" alt="cinema">
+                <!--<div class="img-caption">Watching Movies</div>-->
+                <p class="btn-dark-container">
+                  <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#watching-movies" aria-expanded="false" aria-controls="watching-movies">
+                    Watching Movies
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                    </svg>
+                  </button>
+                </p>
+                <div class="collapse" id="watching-movies">
+                  <div class="card card-body">
+                    I also like to watch movies in my free time. The genre of the movies that I watch vary. But I usually like to watch sci-fi and action movies. I also like lighthearted movies. Some of my favorites are Interstellar and the entire Fast and Furious franchise. I also like superhero movies in general.
+                  </div>
+                </div>
+                </figure>
+                <figure>
+                <img src="../Images/tech-daily-PGuCnUzsRSM-unsplash.jpg" alt="laptop with series selection onscreen">
+                <!--<div class="img-caption">Watching TV & Online Series</div>-->
+                <p class="btn-dark-container">
+                  <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#watching-tv-and-online-series" aria-expanded="false" aria-controls="watching-tv-and-online-series">
+                    Watching TV & Online Series
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                    </svg>
+                  </button>
+                </p>
+                <div class="collapse" id="watching-tv-and-online-series">
+                  <div class="card card-body">
+                    I also like to watch TV and online series in my free time. The genre of the series that I watch vary as well. But I usually like to watch slice-of-life dramas. I also like historical and period dramas. Some of my favorites are Mr. Sunshine and Misaeng.
+                  </div>
+                </div>
+                </figure>
+            </div>
+            <h3 class="hobby-highlight" id="hobby-highlight-of-the-month">Hobby Highlight of the Month</h3>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../Images/hidefumi-ohmichi-AkWf075If0E-unsplash.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../Images/bruce-tang-nKO_1QyFh9o-unsplash.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../Images/mark-chan-od3F8UT0YAI-unsplash.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <p class="hobby-highlight">One of my favorite anime franchises is the Gundam franchise. 
+                And one of my favorites from the franchise is Gundam Build Fighters. You can watch its trailer below:</p>
+              <p>P.S. The units in the carousel are RX-78-2 (slides 1-3) and MS-06S Char's Zaku II (slide 3). 
+                They are both from the original Gundam series that debuted in 1979.
+              </p>
+              <p>You can learn more about them <a class="g-link" href="https://gundam.fandom.com/wiki/Mobile_Suit_Gundam">here</a>. 
+              As for Gundam Build Fighters, you can learn more about it <a href="https://gundam.fandom.com/wiki/Gundam_Build_Fighters">here</a>.
+              </p>
+              <h4 class="hobby-highlight">Gundam Build Fighters Trailer</h4>
+            <div><iframe width="500" height="315" src="https://www.youtube.com/embed/tGA_xKm95zg"></iframe></div>
+        </section>
+
+        <section id="interests">
+          <header><h2>Interests
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-palette" viewBox="0 0 16 16">
+              <path d="M8 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zm4 3a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3zM5.5 7a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm.5 6a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
+              <path d="M16 8c0 3.15-1.866 2.585-3.567 2.07C11.42 9.763 10.465 9.473 10 10c-.603.683-.475 1.819-.351 2.92C9.826 14.495 9.996 16 8 16a8 8 0 1 1 8-8zm-8 7c.611 0 .654-.171.655-.176.078-.146.124-.464.07-1.119-.014-.168-.037-.37-.061-.591-.052-.464-.112-1.005-.118-1.462-.01-.707.083-1.61.704-2.314.369-.417.845-.578 1.272-.618.404-.038.812.026 1.16.104.343.077.702.186 1.025.284l.028.008c.346.105.658.199.953.266.653.148.904.083.991.024C14.717 9.38 15 9.161 15 8a7 7 0 1 0-7 7z"/>
+            </svg>
+          </h2></header>
+          <div class="container">
+              <figure>
+              <img src="../Images/john-jennings-fg7J6NnebBc-unsplash.jpg" alt="design">
+              <!--<div class="img-caption">Anything about design in general</div>-->
+              <p class="btn-dark-container">
+                <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#anything-about-design" aria-expanded="false" aria-controls="anything-about-design">
+                  Anything about design in general
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                  </svg>
+                </button>
+              </p>
+              <div class="collapse" id="anything-about-design">
+                <div class="card card-body">
+                  Design is one of my lifelong interests. I like anything about design in general. Web design, car design, architecture, industrial design, graphic design, you name it...
+                </div>
+              </div>
+              </figure>
+              <figure>
+              <img src="../Images/sebastian-kurpiel-R7qWs39obtk-unsplash.jpg" alt="akihabara">
+              <!--<div class="img-caption">Anything about anime in general</div>-->
+              <p class="btn-dark-container">
+                <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#anything-about-anime" aria-expanded="false" aria-controls="anything-about-anime">
+                  Anything about anime in general
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                  </svg>
+                </button>
+              </p>
+              <div class="collapse" id="anything-about-anime">
+                <div class="card card-body">
+                  Anime is also one of my lifelong interests. I like anything about anime in general. One of the things that I like about anime is the kind of inspiration and motivation that they give me. This is especially true for sports anime. They inspire and motivate me to do well, not just in my professional life but in my personal life as well.
+                </div>
+              </div>
+              </figure>
+              <figure>
+              <img src="../Images/jezael-melgoza-GaehHSrFfNo-unsplash.jpg" alt="arcade">
+              <!--<div class="img-caption">Anything about video games in general</div>-->
+              <p class="btn-dark-container">
+                <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#anything-about-video-games" aria-expanded="false" aria-controls="anything-about-video-games">
+                  Anything about video games in general
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                  </svg>
+                </button>
+              </p>
+              <div class="collapse" id="anything-about-video-games">
+                <div class="card card-body">
+                  Video games, as an umbrella term, is also one of my lifelong interests. I like anything about video games in general as well. I am interested in the development side of it just as much as I am interested in playing the video games themselves. I'm curious as to how games are made. I'm curious about the process behind it.
+                </div>
+              </div>
+             </figure>
+             <figure>
+              <img src="../Images/mario-klassen-70YxSTWa2Zw-unsplash.jpg" alt="sports field">
+              <!--<div class="img-caption">Anything about sports in general</div>-->
+              <p class="btn-dark-container">
+                <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#anything-about-sports" aria-expanded="false" aria-controls="anything-about-sports">
+                  Anything about sports in general
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                  </svg>
+                </button>
+              </p>
+              <div class="collapse" id="anything-about-sports">
+                <div class="card card-body">
+                  Sports, as an umbrella term, is also one of my lifelong interests. I like anything about sports in general. I am interested in the coaching side of it just as much as I am interested in the games and matches themselves. For one, I'm curious about what makes a team great. What is their key to success. What makes their organization successful. And as to how we can apply those lessons and learnings in our own professional and personal lives.
+                </div>
+              </div>
+              </figure>
+              <figure>
+              <img src="../Images/alex-knight-2EJCSULRwC8-unsplash.jpg" alt="robot">
+              <!--<div class="img-caption">Anything about science & technology</div>-->
+              <p class="btn-dark-container">
+                <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#anything-about-science-&-tech" aria-expanded="false" aria-controls="anything-about-science-&-tech">
+                  Anything about science & technology
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                  </svg>
+                </button>
+              </p>
+              <div class="collapse" id="anything-about-science-&-tech">
+                <div class="card card-body">
+                  Science and technology, as an umbrella term, is also one of my lifelong interests. I am interested and curious about the different branches of science in general. I am curious about the connections between them. I guess this goes back with the curiousity that I have for the world that we live in in general. I want to know how it works and why it works that way. I guess this in turn, goes back to my curious nature. I am just a very curious person by nature I guess.
+                </div>
+              </div>
+              </figure>
+          </div>
+      </section>
+
+        <section id="portfolio">
+            <header><h2>Portfolio
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-folder" viewBox="0 0 16 16">
+                <path d="M.54 3.87.5 3a2 2 0 0 1 2-2h3.672a2 2 0 0 1 1.414.586l.828.828A2 2 0 0 0 9.828 3h3.982a2 2 0 0 1 1.992 2.181l-.637 7A2 2 0 0 1 13.174 14H2.826a2 2 0 0 1-1.991-1.819l-.637-7a1.99 1.99 0 0 1 .342-1.31zM2.19 4a1 1 0 0 0-.996 1.09l.637 7a1 1 0 0 0 .995.91h10.348a1 1 0 0 0 .995-.91l.637-7A1 1 0 0 0 13.81 4H2.19zm4.69-1.707A1 1 0 0 0 6.172 2H2.5a1 1 0 0 0-1 .981l.006.139C1.72 3.042 1.95 3 2.19 3h5.396l-.707-.707z"/>
+              </svg>
+            </h2></header>
+            <!--<iframe src="https://www.starwars.com/" height="200" width="300" title="Star Wars Tribute Page"></iframe>-->
+            <!--<div class="container">-->
+            <!--Option 1 Start-->
+            <!--<a href="https://www.starwars.com/">
+                <figure>
+                <img class="center" src="/carol-kennedy-X5WdN60n6yk-unsplash.jpg" alt="port sample">
+                <div class="img-caption port-cap">Star Wars Tribute Page</div>
+                </figure>
+            </a>-->
+            <!--Option 1 End-->
+            <!--</div>-->
+            <h3>McLaren Racing Team Tribute Page</h3>
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../Images/BruceMclarenGallery4.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../Images/BruceMclarenGallery1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../Images/McLarenTeamGallery1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../Images/McLarenTeamGallery4.jfif" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <!--<div class="button">
+              <a class="button" href="mp1_portfolio_star_wars.html"><button type="button" class="btn btn-secondary">Check It Here</button></a>
+            </div>-->
+            <div class="button">
+            <form style="display: inline" action="../HTML/port.html" method="get">
+              <button type="submit" class="btn btn-dark check-it-here-btn">Check It Here</button>
+            </form>
+            </div>
+        </section>
+    </main>
+    <!--<hr>-->
+    <div class="contact">
+        <header id="contact"><h2>Contact
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+          </svg>
+        </h2></header>
+        <p>Have an idea in mind? For inquiries, please don't hesitate to message me.</p> 
+        <p>Just click the
+          button below <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+          </svg>
+          Let's work together
+        </p>
+        <div class="button">
+        <form style="display: inline" action="https://www.facebook.com/camad.dimaampao" method="get">
+          <button type="submit" class="btn btn-dark check-it-here-btn">Click Here</button>
+        </form>
+      </div>
+        <br>
+        <div class="back-to-top">
+        <a href="#"><small>Back to Top</small></a>
+        </div>
+    </div>
+  </body>
+</html>
